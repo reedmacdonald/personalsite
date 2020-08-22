@@ -79,7 +79,7 @@ const IndexPage = () => (
           margin: "0 auto",
         }}
       >
-        <Image />
+        <Image style={{ maxWidth: "300px" }} />
       </div>
 
       <p>
