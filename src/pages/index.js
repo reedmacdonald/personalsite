@@ -82,9 +82,16 @@ const IndexPage = () => (
           gridTemplateRows: "1fr",
           gridColumnGap: "0px",
           gridRowGap: "0px",
+          border: "5px solid blue",
         }}
       >
-        <div style={{ maxWidth: "300px", gridArea: "1 / 2 / 2 / 3" }}>
+        <div
+          style={{
+            maxWidth: "300px",
+            gridArea: "1 / 2 / 2 / 3",
+            border: "5px solid red",
+          }}
+        >
           <Image />
         </div>
       </div>
