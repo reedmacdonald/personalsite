@@ -17,3 +17,7 @@ p {
 .myPicture {
   text-align: center !important;
 }
+small {
+  text-align: center;
+  font-family: American Typewriter;
+}
