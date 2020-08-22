@@ -71,33 +71,18 @@ const IndexPage = () => (
           </a>
         </li>
       </ul>
-      <div
-        id="soTired"
-        className="hjfghgkhjg"
-        style={{
-          marginBottom: `1.45rem`,
 
-          display: "grid",
-          //border: "5px solid red",
-          display: "grid",
-          gridTemplateColumns: "repeat(3, 1fr)",
-          gridTemplateRows: "1fr",
-          gridColumnGap: "0px",
-          gridRowGap: "0px",
-          border: "5px solid blue",
-          width: "100%",
+      <div
+        style={{
+          maxWidth: "300px",
+
+          position: "relative",
+          margin: "0 auto",
         }}
       >
-        <div
-          style={{
-            maxWidth: "300px",
-            gridArea: "1 / 2 / 2 / 3",
-            border: "5px solid red",
-          }}
-        >
-          <Image />
-        </div>
+        <Image />
       </div>
+
       <p>
         This page was made with Gatsby, deployed with Netlify and uses the{" "}
         <a href="https://codepen.io/reedmacdonald/pen/bGpNZKR">FunkySans!</a>{" "}
