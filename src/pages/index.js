@@ -73,7 +73,7 @@ const IndexPage = () => (
         </li>
       </ul>
       <br />
-      <div>
+      <div style={{ textAlign: "center" }}>
         <small>
           This page was made with Gatsby, deployed with Netlify and uses the{" "}
           <a
