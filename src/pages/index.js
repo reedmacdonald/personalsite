@@ -75,7 +75,6 @@ const IndexPage = () => (
       <div
         style={{
           maxWidth: "300px",
-
           position: "relative",
           margin: "0 auto",
         }}
