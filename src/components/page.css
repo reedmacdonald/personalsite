@@ -14,3 +14,6 @@ p {
   text-align: center;
   font-family: American Typewriter;
 }
+.myPicture {
+  text-align: center !important;
+}

@@ -73,13 +73,11 @@ const IndexPage = () => (
       </ul>
       <div
         style={{
-          //display: "grid",
           marginBottom: `1.45rem`,
-          //placeItems: "center",
           textAlign: "center",
         }}
       >
-        <img style={{ maxWidth: "300px", display: "inline-block" }} src={me} />
+        <img className="myPicture" style={{ maxWidth: "300px" }} src={me} />
       </div>
       <p>
         This page was made with Gatsby, deployed with Netlify and uses the{" "}
