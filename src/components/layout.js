@@ -25,7 +25,10 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <section class="masthead" role="img" aria-label="Image Description">
+        <h1>Welcome to my Neck of the Woods</h1>
+      </section>
+
       <div
         style={{
           margin: `0 auto`,
@@ -34,11 +37,6 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
       </div>
     </>
   )

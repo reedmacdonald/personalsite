@@ -1,0 +1,16 @@
+.header {
+  color: green;
+  text-align: center;
+  font-family: American Typewriter;
+  font-size: 5vmin;
+}
+.subHeader {
+  color: brown;
+  text-align: center;
+  font-size: 5vmin;
+  font-family: American Typewriter;
+}
+p {
+  text-align: center;
+  font-family: American Typewriter;
+}
