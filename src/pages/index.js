@@ -73,13 +73,18 @@ const IndexPage = () => (
         </li>
       </ul>
       <br />
-      <small>
-        This page was made with Gatsby, deployed with Netlify and uses the{" "}
-        <a target="_blank" href="https://codepen.io/reedmacdonald/pen/bGpNZKR">
-          FunkySans!
-        </a>{" "}
-        component
-      </small>
+      <div>
+        <small>
+          This page was made with Gatsby, deployed with Netlify and uses the{" "}
+          <a
+            target="_blank"
+            href="https://codepen.io/reedmacdonald/pen/bGpNZKR"
+          >
+            FunkySans!
+          </a>{" "}
+          component
+        </small>
+      </div>
     </div>
   </Layout>
 )
