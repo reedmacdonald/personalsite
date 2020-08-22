@@ -72,6 +72,8 @@ const IndexPage = () => (
         </li>
       </ul>
       <div
+        id="soTired"
+        className="hjfghgkhjg"
         style={{
           marginBottom: `1.45rem`,
 
@@ -83,6 +85,7 @@ const IndexPage = () => (
           gridColumnGap: "0px",
           gridRowGap: "0px",
           border: "5px solid blue",
+          width: "100%",
         }}
       >
         <div
