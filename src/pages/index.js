@@ -39,7 +39,7 @@ const IndexPage = () => (
         </SansWrapper>
       </p>
       <p>Here are some links you may find helpful:</p>
-      <ul style={{ textAlign: "center" }}>
+      <ul style={{ textAlign: "center", listStyleType: "none" }}>
         <li>
           <a target="_blank" href="https://www.linkedin.com/in/reed-macdonald/">
             LinkedIn
@@ -73,12 +73,13 @@ const IndexPage = () => (
       </ul>
       <div
         style={{
-          display: "grid",
+          //display: "grid",
           marginBottom: `1.45rem`,
-          placeItems: "center",
+          //placeItems: "center",
+          textAlign: "center",
         }}
       >
-        <img style={{ maxWidth: "300px" }} src={me} />
+        <img style={{ maxWidth: "300px", display: "inline-block" }} src={me} />
       </div>
       <p>
         This page was made with Gatsby, deployed with Netlify and uses the{" "}
