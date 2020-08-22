@@ -72,16 +72,6 @@ const IndexPage = () => (
           </a>
         </li>
       </ul>
-
-      <div
-        style={{
-          maxWidth: "100px",
-          position: "relative",
-          margin: "0 auto",
-        }}
-      >
-        <img src={idk} />
-      </div>
       <br />
       <p>
         This page was made with Gatsby, deployed with Netlify and uses the{" "}
