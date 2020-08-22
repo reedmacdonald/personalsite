@@ -8,6 +8,7 @@ import "../components/page.css"
 import me from "../images/youGotThisCropped.jpg"
 import { SansWrapper } from "../components/funkysans"
 import MyResume from "../components/MacDonald_Resume_Netlify.pdf"
+import idk from "../images/youGotThisCropped.jpg"
 
 const IndexPage = () => (
   <Layout>
@@ -79,9 +80,9 @@ const IndexPage = () => (
           margin: "0 auto",
         }}
       >
-        <Image style={{ maxWidth: "300px" }} />
+        <img src={idk} />
       </div>
-
+      <br />
       <p>
         This page was made with Gatsby, deployed with Netlify and uses the{" "}
         <a href="https://codepen.io/reedmacdonald/pen/bGpNZKR">FunkySans!</a>{" "}
