@@ -74,10 +74,19 @@ const IndexPage = () => (
       <div
         style={{
           marginBottom: `1.45rem`,
-          textAlign: "center",
+
+          display: "grid",
+          //border: "5px solid red",
+          display: "grid",
+          gridTemplateColumns: "repeat(3, 1fr)",
+          gridTemplateRows: "1fr",
+          gridColumnGap: "0px",
+          gridRowGap: "0px",
         }}
       >
-        <img className="myPicture" style={{ maxWidth: "300px" }} src={me} />
+        <div style={{ maxWidth: "300px", gridArea: "1 / 2 / 2 / 3" }}>
+          <Image />
+        </div>
       </div>
       <p>
         This page was made with Gatsby, deployed with Netlify and uses the{" "}
