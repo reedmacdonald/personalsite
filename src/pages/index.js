@@ -14,9 +14,9 @@ const IndexPage = () => (
   <Layout>
     <SEO title="ReedMacDonald" />
     <div className="holderDiv">
+      <br />
       <h3 className="header">Reed Paul MacDonald</h3>
       <h3 className="subHeader">Front End Developer in Los Angeles</h3>
-
       <p style={{ textAlign: "center" }}>
         <SansWrapper>
           I graduated UCLA with a Political Science degree in 2018 after having
