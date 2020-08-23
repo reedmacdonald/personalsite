@@ -9,6 +9,7 @@ import me from "../images/youGotThisCropped.jpg"
 import { SansWrapper } from "../components/funkysans"
 import MyResume from "../components/MacDonald_Resume_Netlify.pdf"
 import idk from "../images/youGotThisCropped.jpg"
+import Popup from "../components/popup"
 
 const IndexPage = () => (
   <Layout>
@@ -18,28 +19,60 @@ const IndexPage = () => (
       <h3 className="header">Reed Paul MacDonald</h3>
       <h3 className="subHeader">Front End Developer in Los Angeles</h3>
       <p style={{ textAlign: "center" }}>
+        <SansWrapper>I graduated UCLA with a {() => {}}</SansWrapper>
+        <Popup words="Not going to say this was my best decision, lol">
+          Political Science
+        </Popup>{" "}
         <SansWrapper>
-          I graduated UCLA with a Political Science degree in 2018 after having
-          interned for Senator Dianne Feinstein, Congressman Alan Lowenthal (in
-          Washington, DC), the Los Angeles World Affairs Council, and State
-          Senator Tony Mendoza.{" "}
+          degree in 2018 after having interned for {() => {}}
+        </SansWrapper>
+        <Popup
+          words={
+            <>
+              This was in her LA District Office, though I did get to meet her{" "}
+              <a>once</a>, which was cool
+            </>
+          }
+        >
+          Senator{" "}
+        </Popup>
+        <SansWrapper>
+          Dianne Feinstein, Congressman Alan Lowenthal (in Washington, DC), the
+          Los Angeles World Affairs Council, and State Senator Tony Mendoza.{" "}
         </SansWrapper>
       </p>
       <p>
+        <SansWrapper>Upon graduating, I worked for {() => {}}</SansWrapper>
+        <Popup words="Was in the same elevator as Michael B Jordan once here">
+          Variety Business Intelligence
+        </Popup>{" "}
         <SansWrapper>
-          Upon graduating, I worked for Variety Business Intelligence before
-          going to General Assembly's Software Engineering Bootcamp. Since then,
-          I've been working as a front end developer at Scholly Inc., primarily
-          working with React and React Native.{" "}
+          before going to General Assembly's Software Engineering Bootcamp.
+          Since then, I've been working as a front end developer at{" "}
+        </SansWrapper>
+        <Popup words="Will forever be grateful to this company and the people here">
+          Scholly
+        </Popup>
+        <SansWrapper>
+          , primarily working with React and React Native.{" "}
         </SansWrapper>
       </p>
       <p>
+        <SansWrapper>It has been a {() => {}}</SansWrapper>
+        <Popup words={"Often very stressful, especially the job searches"}>
+          crazy
+        </Popup>{" "}
         <SansWrapper>
-          It has been a crazy past few years, but I've learned a lot and hope to
-          continue to do so!{" "}
+          past few years, but I've had a lot of {() => {}}
+        </SansWrapper>
+        <Popup words={"I took an improv class!"}>fun </Popup>
+        <SansWrapper>
+          and learned a lot and hope to continue to do so!{" "}
         </SansWrapper>
       </p>
-      <p>Here are some links you may find helpful:</p>
+      <p>
+        <SansWrapper>Here are some links to my accounts:{() => {}}</SansWrapper>
+      </p>
       <ul style={{ textAlign: "center", listStyleType: "none" }}>
         <li>
           <a target="_blank" href="https://www.linkedin.com/in/reed-macdonald/">

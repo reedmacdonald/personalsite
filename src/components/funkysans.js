@@ -40,8 +40,8 @@ export const SansWrapper = props => {
     setNewGraph(newArray)
   }, [props.children])
   return (
-    <div>
-      <p style={{ textAlign: "center" }}>{newGraph}</p>
-    </div>
+    <>
+      <>{newGraph}</>
+    </>
   )
 }
