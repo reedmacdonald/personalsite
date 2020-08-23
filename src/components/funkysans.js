@@ -20,7 +20,7 @@ export const WordWrapper = props => {
         setFontFamily("Comic Sans MS")
       }}
       style={{
-        color: color,
+        //color: color,
         fontWeight: fontWeight,
         fontFamily: fontFamily,
       }}

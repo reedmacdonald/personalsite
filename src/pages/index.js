@@ -38,7 +38,7 @@ const IndexPage = () => (
         </Popup>
         <SansWrapper>
           Dianne Feinstein, Congressman Alan Lowenthal (in Washington, DC), the
-          Los Angeles World Affairs Council, and State Senator Tony Mendoza.{" "}
+          Los Angeles World Affairs Council, and State Senator Antonio Mendoza.{" "}
         </SansWrapper>
       </p>
       <p>
