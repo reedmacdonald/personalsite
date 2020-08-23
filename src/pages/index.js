@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 import "../components/page.css"
 import me from "../images/youGotThisCropped.jpg"
 import { SansWrapper } from "../components/funkysans"
-import MyResume from "../components/MacDonald_Resume_Netlify.pdf"
+import MyResume from "../components/MacDonald_Resume.pdf"
 import idk from "../images/youGotThisCropped.jpg"
 import Popup from "../components/popup"
 
@@ -42,8 +42,8 @@ const IndexPage = () => (
         </SansWrapper>
       </p>
       <p>
-        <SansWrapper>Upon graduating, I worked for {() => {}}</SansWrapper>
-        <Popup words="Was in the same elevator as Michael B Jordan once here">
+        <SansWrapper>After graduating, I worked for {() => {}}</SansWrapper>
+        <Popup words="Was in the same elevator as Michael B Jordan once here!">
           Variety Business Intelligence
         </Popup>{" "}
         <SansWrapper>
