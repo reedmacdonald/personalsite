@@ -74,7 +74,7 @@ const IndexPage = () => (
       </ul>
       <br />
       <div style={{ textAlign: "center" }}>
-        <small>
+        <p>
           This page was made with Gatsby, deployed with Netlify and uses the{" "}
           <a
             target="_blank"
@@ -83,7 +83,7 @@ const IndexPage = () => (
             FunkySans!
           </a>{" "}
           component
-        </small>
+        </p>
       </div>
     </div>
   </Layout>
