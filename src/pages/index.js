@@ -73,38 +73,25 @@ const IndexPage = () => (
       <p>
         <SansWrapper>Here are some links to my accounts:{() => {}}</SansWrapper>
       </p>
-      <ul style={{ textAlign: "center", listStyleType: "none" }}>
-        <li>
-          <a target="_blank" href="https://www.linkedin.com/in/reed-macdonald/">
-            LinkedIn
-          </a>
-        </li>
-        <li>
-          <a target="_blank" href="https://codepen.io/reedmacdonald">
-            CodePen
-          </a>
-        </li>
-        <li>
-          <a target="_blank" href="https://twitter.com/macdonald_reed">
-            Twitter
-          </a>
-        </li>
-        <li>
-          <a target="_blank" href="https://instagram.com/reed.macdonald">
-            Instagram
-          </a>
-        </li>
-        <li>
-          <a target="_blank" href={MyResume}>
-            Resume
-          </a>
-        </li>
-        <li>
-          <a target="_blank" href="https://github.com/reedmacdonald">
-            GitHub
-          </a>
-        </li>
-      </ul>
+
+      <p>
+        <a target="_blank" href="https://www.linkedin.com/in/reed-macdonald/">
+          LinkedIn
+        </a>{" "}
+        <a target="_blank" href="https://twitter.com/macdonald_reed">
+          Twitter
+        </a>{" "}
+        <a target="_blank" href="https://instagram.com/reed.macdonald">
+          Instagram
+        </a>{" "}
+        <a target="_blank" href={MyResume}>
+          Resume
+        </a>{" "}
+        <a target="_blank" href="https://github.com/reedmacdonald">
+          GitHub
+        </a>
+      </p>
+
       <br />
       <div style={{ textAlign: "center" }}>
         <img style={{ maxWidth: "300px" }} src={idk} />
