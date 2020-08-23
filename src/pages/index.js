@@ -107,6 +107,10 @@ const IndexPage = () => (
       </ul>
       <br />
       <div style={{ textAlign: "center" }}>
+        <img style={{ maxWidth: "300px" }} src={idk} />
+      </div>
+      <br />
+      <div style={{ textAlign: "center" }}>
         <p>
           This page was made with Gatsby, deployed with Netlify and uses the{" "}
           <a
