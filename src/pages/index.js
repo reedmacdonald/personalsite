@@ -36,7 +36,7 @@ const IndexPage = () => (
       <p>
         <SansWrapper>
           It has been a crazy past few years, but I've learned a lot and hope to
-          continue to do so.{" "}
+          continue to do so!{" "}
         </SansWrapper>
       </p>
       <p>Here are some links you may find helpful:</p>
