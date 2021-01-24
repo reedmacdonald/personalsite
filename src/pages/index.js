@@ -39,59 +39,24 @@ const IndexPage = () => {
         <h3 className="header"><FloatIn>Reed Paul MacDonald</FloatIn></h3>
         <h3 className="subHeader">Front End Developer in Los Angeles</h3>
         <p style={{ textAlign: "center" }}>
-          <SansWrapper>I graduated UCLA with a {() => { }}</SansWrapper>
-          <Popup words="Not going to say this was my best decision, lol">
-            Political Science
-        </Popup>{" "}
-          <SansWrapper>
-            degree in 2018 after having interned for {() => { }}
-          </SansWrapper>
-          <Popup
-            words={
-              <>
-                This was in her LA District Office, though I did get to meet her{" "}
-                <a>once</a>, which was cool
-            </>
-            }
-          >
-            Senator{" "}
-          </Popup>
-          <SansWrapper>
-            Dianne Feinstein, Congressman Alan Lowenthal (in Washington, DC), the
-          Los Angeles World Affairs Council, and State Senator Antonio Mendoza.{" "}
-          </SansWrapper>
+          <SansWrapper>I am an engineer at Scholly, Inc. where I primarily work on their {''}</SansWrapper>
+          <Popup words='this is one of my favorite words'>flagship</Popup>
+          <SansWrapper> product {''}</SansWrapper><i><a href='https://search.myscholly.com' target='_blank'>Search</a></i>
+          {' '} <SansWrapper> while also running their landing pages and occassionally working on their secondary web-apps and their iOS app. During my spare time I've been exploring static site generators, learning other non-React frameworks, and writing more with React Native. I've also worked with Python and PHP and am a Photoshop hobbiest.{''}</SansWrapper>
         </p>
         <p>
-          <SansWrapper>After graduating, I worked for {() => { }}</SansWrapper>
-          <Popup words="Was in the same elevator as Michael B Jordan once here!">
-            Variety Business Intelligence
-        </Popup>{" "}
-          <SansWrapper>
-            before going to General Assembly's Software Engineering Bootcamp.
-          Since then, I've been working as a front end developer at{" "}
-          </SansWrapper>
-          <Popup words="Will forever be grateful to this company and the people here">
-            Scholly
-        </Popup>
-          <SansWrapper>
-            , primarily working with React and React Native.{" "}
-          </SansWrapper>
+          <SansWrapper>Prior to becoming a professional programmer, I graduated from UCLA in 2018 with a degree in {''}</SansWrapper>
+          <Popup words='The social contract is my jam'>Political</Popup>{' '}
+          <SansWrapper>Science while working as a basketball {''}</SansWrapper>
+          <Popup words='I miss this'>writer</Popup>
+          <SansWrapper>, radio {''}</SansWrapper>
+          <Popup words='I really miss this'>host</Popup>
+          <SansWrapper>, and copy {''}</SansWrapper><Popup words={`I don\'t really miss this at all actually, this is site is probably filled with bad grammar.`}>editor</Popup>
+          <SansWrapper>. I also completed four internships including ones for Senator Dianne Feinstein, Congressman Alan Lowenthal, and the Los Angeles World Affairs {''}</SansWrapper><Popup words='This is not a secret society that runs the world, much to my disappointment'>Council</Popup><SansWrapper>.{''}</SansWrapper>
         </p>
+        <p><SansWrapper>During my free time I like to play chess, do {''}</SansWrapper><Popup words={<>Well, I think I still ?</>}>improv</Popup><SansWrapper>, and watch Bayern Munich soccer.{''}</SansWrapper></p>
         <p>
-          <SansWrapper>It has been a {() => { }}</SansWrapper>
-          <Popup words={"Often very stressful, especially the job searches"}>
-            crazy
-        </Popup>{" "}
-          <SansWrapper>
-            past few years, but I've had a lot of {() => { }}
-          </SansWrapper>
-          <Popup words={"I took an improv class!"}>fun </Popup>
-          <SansWrapper>
-            and learned a lot and hope to continue to do so!{" "}
-          </SansWrapper>
-        </p>
-        <p>
-          <SansWrapper>Here are some links to my accounts:{() => { }}</SansWrapper>
+          <SansWrapper>Here are some links to my accounts:{''}</SansWrapper>
         </p>
 
         <p>
