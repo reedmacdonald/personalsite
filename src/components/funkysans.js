@@ -33,7 +33,6 @@ export const SansWrapper = props => {
   const [newGraph, setNewGraph] = React.useState(props.children)
   React.useEffect(() => {
     let newArray = []
-    console.log(props, "props")
     props.children[0].split(" ").forEach((x, i) => {
       newArray[i] = <WordWrapper>{x + " "}</WordWrapper>
     })
