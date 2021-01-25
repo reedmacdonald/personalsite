@@ -54,7 +54,7 @@ const IndexPage = () => {
           <SansWrapper>, and copy {''}</SansWrapper><Popup words={`I don\'t really miss this at all actually, this is site is probably filled with bad grammar.`}>editor</Popup>
           <SansWrapper>. I also completed four internships including ones for Senator Dianne Feinstein, Congressman Alan Lowenthal, and the Los Angeles World Affairs {''}</SansWrapper><Popup words='This is not a secret society that runs the world, much to my disappointment'>Council</Popup><SansWrapper>.{''}</SansWrapper>
         </p>
-        <p><SansWrapper>During my free time I like to play chess, do {''}</SansWrapper><Popup words={<>Well, I think I still ?</>}>improv</Popup><SansWrapper>, and watch Bayern Munich soccer.{''}</SansWrapper></p>
+        <p><SansWrapper>During my free time I like to play chess, do {''}</SansWrapper><SansWrapper>, and watch Bayern Munich soccer.{''}</SansWrapper></p>
         <p>
           <SansWrapper>Here are some links to my accounts:{''}</SansWrapper>
         </p>
