@@ -42,7 +42,7 @@ const IndexPage = () => {
           <SansWrapper>I am an engineer at Scholly, Inc. where I primarily work on their {''}</SansWrapper>
           <Popup words='this is one of my favorite words'>flagship</Popup>
           <SansWrapper> product {''}</SansWrapper><i><a href='https://search.myscholly.com' target='_blank'>Search</a></i>
-          {' '} <SansWrapper> while also running their landing pages and occassionally working on their secondary web-apps and their iOS app. During my spare time I've been exploring static site generators, learning other non-React frameworks, and writing more with React Native. I've also worked with Python and PHP and am a Photoshop hobbiest.{''}</SansWrapper>
+          {' '} <SansWrapper> while also running their landing pages and occassionally working on their secondary web-apps and their iOS app. Outside of work I've been exploring static site generators, learning other non-React frameworks, and writing more with React Native. I've also worked with Python and PHP and am a Photoshop hobbiest.{''}</SansWrapper>
         </p>
         <p>
           <SansWrapper>Prior to becoming a professional programmer, I graduated from UCLA in 2018 with a degree in {''}</SansWrapper>
