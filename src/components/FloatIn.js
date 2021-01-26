@@ -10,8 +10,9 @@ export default FloatIn
 
 const EachLetter = ({ children, delay }) => {
     let num = Math.floor(Math.random() * 400) - 200;
+    let num2 = Math.floor(Math.random() * 400) - 200;
     const [customOpacity, setCustomOpacity] = React.useState(0)
-    const [customTranslate, setTranslate] = React.useState(`translate(${num}px, ${num}px)`)
+    const [customTranslate, setTranslate] = React.useState(`translate(${num}px, ${num2}px)`)
     React.useEffect(() => {
         setTimeout(() => {
             setCustomOpacity(1);
