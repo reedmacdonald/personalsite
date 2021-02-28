@@ -42,7 +42,13 @@ const IndexPage = () => {
           <SansWrapper>I am an engineer at Scholly, Inc. where I primarily work on their {''}</SansWrapper>
           <Popup words='this is one of my favorite words'>flagship</Popup>
           <SansWrapper> product {''}</SansWrapper><i><a href='https://search.myscholly.com' target='_blank'>Search</a></i>
-          {' '} <SansWrapper> while also running their landing pages and occassionally working on their secondary web-apps and their iOS app. Outside of work I've been exploring static site generators, learning other non-React frameworks, and writing more with React Native. I've also worked with Python and PHP and am a Photoshop hobbiest.{''}</SansWrapper>
+          {' '} <SansWrapper> while also running their landing pages and occassionally working on their secondary web-apps and their iOS app. Outside of work I've been exploring static site{''}
+          </SansWrapper>
+          <Popup words='Such as Gatsby, which is what this website is made with'>generators{''}</Popup>
+          <SansWrapper>, learning other non-React
+          {''}</SansWrapper>
+          <Popup words='My guess is that Vue will be the most popular web framework in a few years, and I`m excited about it'>frameworks</Popup>
+          <SansWrapper>, and writing more with React Native. I've also worked with Python and PHP and am a Photoshop hobbiest.{''}</SansWrapper>
         </p>
         <p>
           <SansWrapper>Prior to becoming a professional programmer, I graduated from UCLA in 2018 with a degree in {''}</SansWrapper>
@@ -54,7 +60,7 @@ const IndexPage = () => {
           <SansWrapper>, and copy {''}</SansWrapper><Popup words={`I don\'t really miss this at all actually, this is site is probably filled with bad grammar.`}>editor</Popup>
           <SansWrapper>. I also completed four internships including ones for Senator Dianne Feinstein, Congressman Alan Lowenthal, and the Los Angeles World Affairs {''}</SansWrapper><Popup words='This is not a secret society that runs the world, much to my disappointment'>Council</Popup><SansWrapper>.{''}</SansWrapper>
         </p>
-        <p><SansWrapper>During my free time I like to play chess, do improv{''}</SansWrapper><SansWrapper>, and watch {''}</SansWrapper>
+        <p><SansWrapper>During my free time I like to play chess, do improv,{''}</SansWrapper><SansWrapper>and watch {''}</SansWrapper>
           <Popup words='Currently sitting atop the Bundesliga standings!'>Bayern</Popup><SansWrapper> Munich soccer.{''}</SansWrapper></p>
         <p>
           <SansWrapper>Here are some links to my accounts:{''}</SansWrapper>
@@ -67,15 +73,15 @@ const IndexPage = () => {
           <a target="_blank" href="https://twitter.com/macdonald_reed">
             Twitter
         </a>{" "}
-          <a target="_blank" href="https://instagram.com/reed.macdonald">
-            Instagram
-        </a>{" "}
           <a target="_blank" href={MyResume}>
             Resume
         </a>{" "}
           <a target="_blank" href="https://github.com/reedmacdonald">
             GitHub
-        </a>
+        </a>{" "}
+          <Link to="/portfolio" >
+            Portfolio
+        </Link>
         </p>
 
         <br />
