@@ -39,7 +39,7 @@ const IndexPage = () => {
         <h3 className="header"><FloatIn>Reed Paul MacDonald</FloatIn></h3>
         <h3 className="subHeader">Front End Developer in Los Angeles</h3>
         <p style={{ textAlign: "center" }}>
-          <SansWrapper>I am an engineer at Scholly, Inc. where I primarily work on their {''}</SansWrapper>
+          <SansWrapper>I am currently an engineer at {''}</SansWrapper><a target='_blank' href='https://www.ageoflearning.com/'>Age of Learning, Inc.</a><SansWrapper> where I work on the landing pages across three different products. Before that I worked at Scholly, Inc. where I primarily worked on their {''}</SansWrapper>
           <Popup words='this is one of my favorite words'>flagship</Popup>
           <SansWrapper> product {''}</SansWrapper><i><a href='https://search.myscholly.com' target='_blank'>Search</a></i>
           {' '} <SansWrapper> while also running their landing pages and occassionally working on their secondary web-apps and their iOS app. Outside of work I've been exploring static site{''}
