@@ -8,7 +8,6 @@ import MyResume from "../components/MacDonald_Resume.pdf"
 import idk from "../images/youGotThisCropped.jpg"
 import Popup from "../components/popup"
 import FloatIn from '../components/FloatIn'
-import Bane from '../images/Bane.jpg'
 import Breakfast from '../images/Breakfast.jpg'
 import CrackMyselfUp from '../images/CrackMyselfUpFinal.jpg'
 import Embarrass from '../images/Embarrass.jpg'
@@ -38,41 +37,24 @@ const IndexPage = () => {
         <br />
         <h3 className="header"><FloatIn>Reed Paul MacDonald</FloatIn></h3>
         <h3 className="subHeader">Front End Developer in Los Angeles</h3>
-        <p style={{ textAlign: "center" }}>
-          <SansWrapper>I am currently an engineer at {''}</SansWrapper><a target='_blank' href='https://www.ageoflearning.com/'>Age of Learning, Inc.</a><SansWrapper> where I work on the landing pages across three different products. Before that I worked at Scholly, Inc. where I primarily worked on their {''}</SansWrapper>
-          <Popup words='this is one of my favorite words'>flagship</Popup>
-          <SansWrapper> product {''}</SansWrapper><i><a href='https://search.myscholly.com' target='_blank'>Search</a></i>
-          {' '} <SansWrapper> while also running their landing pages and occassionally working on their secondary web-apps and their iOS app. Outside of work I've been exploring static site{''}
-          </SansWrapper>
-          <Popup words='Such as Gatsby, which is what this website is made with'>generators{''}</Popup>
-          <SansWrapper>, learning other non-React
-          {''}</SansWrapper>
-          <Popup words='My guess is that Vue will be the most popular web framework in a few years, and I`m excited about it'>frameworks</Popup>
-          <SansWrapper>, and writing more with React Native. I've also worked with Python and PHP and am a Photoshop hobbiest.{''}</SansWrapper>
+        <p>
+        <SansWrapper>I am a Front End Developer who has worked for <Popup words='This was my dream job at the time and a very satisfying tenure.'>Scholly, Inc</Popup> and <Popup words='A necessary, enlightening experience. Also, unfortunately, a short one.'>Age of Learning</Popup> where I've written code in <Popup words='One of the greatest inventions ever, right up there with the lightbulb and the wheel (and gaining quickly on the wheel)'>React</Popup>, React Native, and vanilla JavaScript. During these experiences I worked extensively on <a target="_blank" href="https://myscholly.com">landing</a> pages as well as <a target="_blank" href="https://search.myscholly.com">web</a> and mobile applications. I also frequently build side-projects with my <Popup words={`This was OutOfCharacter.io, which did worse than I hoped but better than I could've expected. You can watch the demo on my portfolio which is linked below.`}>favorite</Popup> one gaining 1,700 unique visitors. Some tools I've used frequently are <Popup words={`My preference is to use React Context but I'm not going to argue about it`}>Redux</Popup>, SCSS, Wordpress, Netlify, and <Popup words={'Such as this site!'}>Gatsby.</Popup></SansWrapper>
         </p>
         <p>
-          <SansWrapper>Prior to becoming a professional programmer, I graduated from UCLA in 2018 with a degree in {''}</SansWrapper>
-          <Popup words='The social contract is my jam'>Political</Popup>{' '}
-          <SansWrapper>Science while working as a basketball {''}</SansWrapper>
-          <Popup words='I miss this'>writer</Popup>
-          <SansWrapper>, radio {''}</SansWrapper>
-          <Popup words='I really miss this'>host</Popup>
-          <SansWrapper>, and copy {''}</SansWrapper><Popup words={`I don\'t really miss this at all actually, this is site is probably filled with bad grammar.`}>editor</Popup>
-          <SansWrapper>. I also completed four internships including ones for Senator Dianne Feinstein, Congressman Alan Lowenthal, and the Los Angeles World Affairs {''}</SansWrapper><Popup words='This is not a secret society that runs the world, much to my disappointment'>Council</Popup><SansWrapper>.{''}</SansWrapper>
+        <SansWrapper>Prior to software engineering I graduated from UCLA with a Political Science degree and interned for my State Senator as well as Congressman Alan Lowenthal and Senator <Popup words={`Definitely the biggest name on my resume, I brag about this a lot`}>Dianne Feinstein</Popup>. Despite having moved on career-wise, I really enjoyed my time in politics and try to stay engaged as much as I can.</SansWrapper>
         </p>
-        <p><SansWrapper>During my free time I like to play chess, do improv,{''}</SansWrapper><SansWrapper>and watch {''}</SansWrapper>
-          <Popup words='Currently sitting atop the Bundesliga standings!'>Bayern</Popup><SansWrapper> Munich soccer.{''}</SansWrapper></p>
+        <p><SansWrapper>During my free time I like to play <Popup words={`Albeit not very well`}>chess</Popup>, do <Popup words={`Well not since pre-pandemic, but I think I can still 'Yes, and' hopefully`}>improv</Popup>, and watch
+          Bayern <Popup words={`I'm writing this hours after Germany got eliminated from the Euros (it's been a rough day)`}>Munich</Popup> soccer.</SansWrapper>
+          </p>
         <p>
-          <SansWrapper>Here are some links to my accounts:{''}</SansWrapper>
+          <SansWrapper>Here are some links to my accounts:</SansWrapper>
         </p>
 
         <p>
           <a target="_blank" href="https://www.linkedin.com/in/reed-macdonald/">
             LinkedIn
         </a>{" "}
-          <a target="_blank" href="https://twitter.com/macdonald_reed">
-            Twitter
-        </a>{" "}
+
           <a target="_blank" href={MyResume}>
             Resume
         </a>{" "}
@@ -81,7 +63,10 @@ const IndexPage = () => {
         </a>{" "}
           <Link to="/portfolio" >
             Portfolio
-        </Link>
+        </Link>{" "}
+        <a target="_blank" href="https://twitter.com/macdonald_reed">
+            Twitter
+        </a>{" "}
         </p>
 
         <br />
