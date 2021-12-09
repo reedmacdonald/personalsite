@@ -38,7 +38,7 @@ const IndexPage = () => {
         <h3 className="header"><FloatIn>Reed Paul MacDonald</FloatIn></h3>
         <h3 className="subHeader">Front End Developer in Los Angeles</h3>
         <p>
-        <SansWrapper>I am a Front End Developer who has worked for <Popup words='This was my dream job at the time and a very satisfying tenure.'>Scholly, Inc</Popup> and <Popup words='A necessary, enlightening experience. Also, unfortunately, a short one.'>Age of Learning</Popup> where I've written code in <Popup words='One of the greatest inventions ever, right up there with the lightbulb and the wheel (and gaining quickly on the wheel)'>React</Popup>, React Native, and vanilla JavaScript. During these experiences I worked extensively on <a target="_blank" href="https://myscholly.com">landing</a> pages as well as <a target="_blank" href="https://search.myscholly.com">web</a> and mobile applications. I also frequently build side-projects with my <Popup words={`This was OutOfCharacter.io, which did worse than I hoped but better than I could've expected. You can watch the demo on my portfolio which is linked below.`}>favorite</Popup> one gaining 1,700 unique visitors. Some tools I've used frequently are <Popup words={`My preference is to use React Context but I'm not going to argue about it`}>Redux</Popup>, SCSS, Wordpress, Netlify, and <Popup words={'Such as this site!'}>Gatsby.</Popup></SansWrapper>
+        <SansWrapper>I am a Front End Developer who has worked for <Popup words='This was my dream job at the time and a very satisfying tenure.'>Scholly, Inc</Popup> and Amada America where I've written code in <Popup words='One of the greatest inventions ever, right up there with the lightbulb and the wheel (and gaining quickly on the wheel)'>React</Popup>, React Native, and vanilla JavaScript. During these experiences I worked extensively on <a target="_blank" href="https://myscholly.com">landing</a> pages as well as <a target="_blank" href="https://search.myscholly.com">web</a> and mobile applications. I also frequently build side-projects with my <Popup words={`This was OutOfCharacter.io, which did worse than I hoped but better than I could've expected. You can watch the demo on my portfolio which is linked below.`}>favorite</Popup> one gaining 1,700 unique visitors. Some tools I've used frequently are <Popup words={`My preference is to use React Context but I'm not going to argue about it`}>Redux</Popup>, SCSS, Wordpress, Netlify, and <Popup words={'Such as this site!'}>Gatsby.</Popup></SansWrapper>
         </p>
         <p>
         <SansWrapper>Prior to software engineering I graduated from UCLA with a Political Science degree and interned for my State Senator as well as Congressman Alan Lowenthal and Senator <Popup words={`Definitely the biggest name on my resume, I brag about this a lot`}>Dianne Feinstein</Popup>. Despite having moved on career-wise, I really enjoyed my time in politics and try to stay engaged as much as I can.</SansWrapper>
@@ -64,9 +64,6 @@ const IndexPage = () => {
           <Link to="/portfolio" >
             Portfolio
         </Link>{" "}
-        <a target="_blank" href="https://twitter.com/macdonald_reed">
-            Twitter
-        </a>{" "}
         </p>
 
         <br />
