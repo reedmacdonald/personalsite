@@ -15,11 +15,21 @@ import Godzilla from '../images/Godzilla.jpg'
 import Picture from '../images/Picture.jpg'
 import WhiteHouse from '../images/WhiteHouse.jpg'
 import Zombies from '../images/Zombies.jpg'
+import { getBayernScore } from "../helpers"
 const array = [idk, Breakfast, CrackMyselfUp, Embarrass, Godzilla, Picture, WhiteHouse, Zombies]
 
 const IndexPage = () => {
   const index = React.useRef(0)
+  const getTheScore = async () => {
+    let res = await getBayernScore()
+    return res
+  }
   const [render, rerender] = React.useState(0)
+  const [score,setScore] = React.useState('Loading score...')
+  React.useEffect(()=>{
+    const res = getTheScore()
+    setScore(res.data)
+  },[])
   React.useEffect(() => {
     setInterval(() => {
       if (index.current == array.length - 1) {
@@ -43,8 +53,13 @@ const IndexPage = () => {
         <p>
         <SansWrapper>Prior to software engineering I graduated from UCLA with a Political Science degree and interned for my State Senator as well as Congressman Alan Lowenthal and Senator <Popup words={`Still going strong at 89!`}>Dianne Feinstein</Popup>. Despite having moved on career-wise, I really enjoyed my time in politics and try to stay engaged as much as I can.</SansWrapper>
         </p>
-        <p><SansWrapper>During my free time I like to play <Popup words={`Albeit not very well`}>chess</Popup>, do <Popup words={`I have no idea if I do this well or not but I've always enjoyed it`}>improv</Popup>, and watch
-          Bayern <Popup words={`I never really liked Robert Lewandowski anyway`}>Munich</Popup> soccer.</SansWrapper>
+        <p><SansWrapper>During my free time I like to play <Popup words={`Albeit not very well`}>chess</Popup>, do <Popup words={`Well not since pre-pandemic, but I think I can still 'Yes, and' hopefully`}>improv</Popup>, and watch
+          Bayern <Popup words={
+          <div>
+            <div>{score}<sup>*</sup></div>
+            <small>* This should be up to date</small>
+          </div>
+        }>Munich</Popup> soccer.</SansWrapper>
           </p>
         <p>
           <SansWrapper>Here are some links to my accounts:</SansWrapper>
