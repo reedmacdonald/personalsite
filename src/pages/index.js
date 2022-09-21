@@ -22,12 +22,14 @@ const IndexPage = () => {
   const index = React.useRef(0)
   const getTheScore = async () => {
     let res = await getBayernScore()
+    console.log(res,'<---res here')
     return res
   }
   const [render, rerender] = React.useState(0)
   const [score,setScore] = React.useState('Loading score...')
   React.useEffect(()=>{
-    const res = getTheScore()
+    const res = await getTheScore()
+    console.log(res,'<---res there')
     setScore(res.data)
   },[])
   React.useEffect(() => {
@@ -56,7 +58,9 @@ const IndexPage = () => {
         <p><SansWrapper>During my free time I like to play <Popup words={`Albeit not very well`}>chess</Popup>, do <Popup words={`Well not since pre-pandemic, but I think I can still 'Yes, and' hopefully`}>improv</Popup>, and watch
           Bayern <Popup words={
           <div>
-            <div>{score}<sup>*</sup></div>
+            <div><span>{score}</span>
+            <sup>*</sup>
+            </div>
             <small>* This should be up to date</small>
           </div>
         }>Munich</Popup> soccer.</SansWrapper>
