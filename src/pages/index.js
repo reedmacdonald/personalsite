@@ -28,7 +28,7 @@ const IndexPage = () => {
   const [render, rerender] = React.useState(0)
   const [score,setScore] = React.useState('Loading score...')
   React.useEffect(()=>{
-    const res = await getTheScore()
+    const res = getTheScore()
     console.log(res,'<---res there')
     setScore(res.data)
   },[])
